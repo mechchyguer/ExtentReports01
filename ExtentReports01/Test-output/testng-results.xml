@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="116735" started-at="2020-02-26T18:15:26 CET" finished-at="2020-02-26T18:17:23 CET">
+  <suite name="Default suite" duration-ms="152960" started-at="2020-02-27T00:56:24 CET" finished-at="2020-02-27T00:58:57 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="116735" started-at="2020-02-26T18:15:26 CET" finished-at="2020-02-26T18:17:23 CET">
+    <test name="Default test" duration-ms="152960" started-at="2020-02-27T00:56:24 CET" finished-at="2020-02-27T00:58:57 CET">
       <class name="P_ExtentReports01.C_ExtentReports01">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setExtent" is-config="true" duration-ms="220" started-at="2020-02-26T18:15:26 CET" finished-at="2020-02-26T18:15:26 CET">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setExtent" is-config="true" duration-ms="485" started-at="2020-02-27T00:56:24 CET" finished-at="2020-02-27T00:56:25 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="10619" started-at="2020-02-26T18:15:26 CET" finished-at="2020-02-26T18:15:37 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="7712" started-at="2020-02-27T00:56:25 CET" finished-at="2020-02-27T00:56:33 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Case01()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case01" duration-ms="7966" started-at="2020-02-26T18:15:37 CET" finished-at="2020-02-26T18:15:45 CET">
+        <test-method status="PASS" signature="test_Case01()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case01" duration-ms="11037" started-at="2020-02-27T00:56:33 CET" finished-at="2020-02-27T00:56:44 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case01 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="8714" started-at="2020-02-26T18:15:45 CET" finished-at="2020-02-26T18:15:54 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="6753" started-at="2020-02-27T00:56:44 CET" finished-at="2020-02-27T00:56:51 CET">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="7422" started-at="2020-02-26T18:15:54 CET" finished-at="2020-02-26T18:16:01 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6951" started-at="2020-02-27T00:56:51 CET" finished-at="2020-02-27T00:56:57 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Case02()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case02" duration-ms="7392" started-at="2020-02-26T18:16:01 CET" finished-at="2020-02-26T18:16:08 CET">
+        <test-method status="PASS" signature="test_Case02()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case02" duration-ms="11313" started-at="2020-02-27T00:56:57 CET" finished-at="2020-02-27T00:57:09 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case02 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="8825" started-at="2020-02-26T18:16:08 CET" finished-at="2020-02-26T18:16:17 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="7463" started-at="2020-02-27T00:57:09 CET" finished-at="2020-02-27T00:57:16 CET">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="7557" started-at="2020-02-26T18:16:17 CET" finished-at="2020-02-26T18:16:25 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6993" started-at="2020-02-27T00:57:16 CET" finished-at="2020-02-27T00:57:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Case03()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case03" duration-ms="1" started-at="2020-02-26T18:16:25 CET" finished-at="2020-02-26T18:16:25 CET">
+        <test-method status="PASS" signature="test_Case03()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case03" duration-ms="1" started-at="2020-02-27T00:57:23 CET" finished-at="2020-02-27T00:57:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case03 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="5434" started-at="2020-02-26T18:16:25 CET" finished-at="2020-02-26T18:16:30 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="6338" started-at="2020-02-27T00:57:23 CET" finished-at="2020-02-27T00:57:30 CET">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="7168" started-at="2020-02-26T18:16:30 CET" finished-at="2020-02-26T18:16:37 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6948" started-at="2020-02-27T00:57:30 CET" finished-at="2020-02-27T00:57:37 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Case04()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case04" duration-ms="1" started-at="2020-02-26T18:16:37 CET" finished-at="2020-02-26T18:16:37 CET">
+        <test-method status="PASS" signature="test_Case04()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case04" duration-ms="1" started-at="2020-02-27T00:57:37 CET" finished-at="2020-02-27T00:57:37 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case04 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="5778" started-at="2020-02-26T18:16:37 CET" finished-at="2020-02-26T18:16:43 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="6082" started-at="2020-02-27T00:57:37 CET" finished-at="2020-02-27T00:57:43 CET">
           <params>
             <param index="0">
               <value>
@@ -87,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6967" started-at="2020-02-26T18:16:43 CET" finished-at="2020-02-26T18:16:50 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6480" started-at="2020-02-27T00:57:43 CET" finished-at="2020-02-27T00:57:49 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Case05()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case05" duration-ms="2" started-at="2020-02-26T18:16:50 CET" finished-at="2020-02-26T18:16:50 CET">
+        <test-method status="PASS" signature="test_Case05()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case05" duration-ms="2" started-at="2020-02-27T00:57:49 CET" finished-at="2020-02-27T00:57:49 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case05 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="6070" started-at="2020-02-26T18:16:50 CET" finished-at="2020-02-26T18:16:56 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="6211" started-at="2020-02-27T00:57:49 CET" finished-at="2020-02-27T00:57:55 CET">
           <params>
             <param index="0">
               <value>
@@ -106,11 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6948" started-at="2020-02-26T18:16:56 CET" finished-at="2020-02-26T18:17:03 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="6998" started-at="2020-02-27T00:57:55 CET" finished-at="2020-02-27T00:58:02 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_Case06()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case06" duration-ms="10546" started-at="2020-02-26T18:17:03 CET" finished-at="2020-02-26T18:17:14 CET">
+        <test-method status="FAIL" signature="test_Case06()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case06" duration-ms="18991" started-at="2020-02-27T00:58:02 CET" finished-at="2020-02-27T00:58:21 CET">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -149,7 +149,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Case06 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="8303" started-at="2020-02-26T18:17:14 CET" finished-at="2020-02-26T18:17:22 CET">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="9486" started-at="2020-02-27T00:58:21 CET" finished-at="2020-02-27T00:58:31 CET">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="endReport" is-config="true" duration-ms="695" started-at="2020-02-26T18:17:22 CET" finished-at="2020-02-26T18:17:23 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="setup" is-config="true" duration-ms="5955" started-at="2020-02-27T00:58:31 CET" finished-at="2020-02-27T00:58:37 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Case07()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="test_Case07" duration-ms="15469" started-at="2020-02-27T00:58:37 CET" finished-at="2020-02-27T00:58:52 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Case07 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="tearDown" is-config="true" duration-ms="4162" started-at="2020-02-27T00:58:52 CET" finished-at="2020-02-27T00:58:56 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Case07 status=SUCCESS method=C_ExtentReports01.test_Case07()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:P_ExtentReports01.C_ExtentReports01@5a1c0542]" name="endReport" is-config="true" duration-ms="1012" started-at="2020-02-27T00:58:56 CET" finished-at="2020-02-27T00:58:57 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

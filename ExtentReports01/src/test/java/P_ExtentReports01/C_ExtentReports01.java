@@ -34,7 +34,7 @@ public class C_ExtentReports01 {
 	static WebDriver driver;
 	static ExtentReports extent;
 	static ExtentTest ExtentTest;
-	WebElement champRechercher, champ_Saisie;
+	WebElement champRechercher, champ_Saisie, identifiant, mot_de_passe, signin;
 	
 //contructeur
 public C_ExtentReports01() { }
@@ -115,7 +115,7 @@ public C_ExtentReports01() { }
 		@Test
 		public void test_Case05 () {
 			ExtentTest = extent.startTest("test_Case05");
-			int time = 22;
+			int time = 18;
 		
 			if (time<10)	{System.out.println("Bonjour");}
 			else if (time < 19)	{System.out.println("Bonne journée");}
@@ -137,6 +137,23 @@ public C_ExtentReports01() { }
 			// erreur faite exprès
 			champRechercher.sendKeys("POM : selenium");
 			Thread.sleep(5000);
+																}
+		
+		@Test
+		public void test_Case07() throws InterruptedException {
+			ExtentTest = extent.startTest("test_Case07");
+			driver.get("https://intra.extia.fr/login/");
+			identifiant = driver.findElement(By.name("user_login"));
+			System.out.println("ID button found : "+identifiant.isDisplayed());
+			Thread.sleep(3000);
+			identifiant.sendKeys("mechchyguer");
+			mot_de_passe = driver.findElement(By.xpath("//input[@name='user_password']"));
+			System.out.println("Password button found : "+mot_de_passe.isDisplayed());
+			mot_de_passe.sendKeys("Mu$t@ph@1990");
+			Thread.sleep(3000);
+			signin = driver.findElement(By.className("form2"));
+			System.out.println("signin button found : "+signin.isDisplayed());
+			signin.click();
 																}
 			
 		@AfterMethod
